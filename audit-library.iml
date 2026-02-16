@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="4">
+  <component name="AdditionalModuleElements">
+    <content url="file://$MODULE_DIR$/audit-library" dumb="true">
+      <sourceFolder url="file://$MODULE_DIR$/audit-library/src/main/resources" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/audit-library/src/test/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/audit-library/test/src" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/audit-library/test/src/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/audit-library/test/src/test/java" isTestSource="true" />
+    </content>
+  </component>
+</module>

@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: sample-app
+
+server:
+  port: 8080
+
+# Audit Library Configuration
+audit:
+  enabled: true
+  service-url: http://localhost:8080  # Points to mock audit service in same app
+  connection-timeout: 5000
+  read-timeout: 5000
+  log-events: true
+
+# Logging Configuration
+logging:
+  level:
+    com.example.audit: DEBUG
+    com.example.demo: INFO
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} - %msg%n"
